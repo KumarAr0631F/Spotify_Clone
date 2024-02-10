@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="utility.css">
+  <title>Spotify - Web Player: Music for everyone</title>
+</head>
+<body>
+  <div class="container flex bg-black">
+    <div class="left">
+      <div class="close">
+        <img class="invert" src="cancel.svg" alt="">
+      </div>
+      <div class="home bg-grey rounded m-1 p-1">
+        <div class="logo"><img width="150" class= "invert" src="logo.svg" alt=""></div>
+        <ul>
+          <li><img class= "invert" src="home.svg" alt="home">Home</li>
+          <li><img class= "invert" src="search.svg" alt="home">Search</li>
+        </ul>
+      </div>
+      <div class="library bg-grey rounded m-1 p-1">
+        <div class="heading">
+          <img class= "invert" src="playlist.svg" alt="playlist">
+          <h2>
+            your Library
+          </h2>
+        </div>
+        <div class="songList">
+          <ul>
+            
+          </ul>
+        </div>
+        <div class="footer">
+          <a href="https://www.spotify.com/in-en/legal/" id="">
+            <span>Legal</span>
+          </a>
+          <a href="https://www.spotify.com/in-en/privacy/" id="">
+            <span>Privacy Center</span>
+          </a>
+          <a href="https://www.spotify.com/in-en/legal/privacy-policy/" id="">
+            <span>Privacy Policy</span>
+          </a>
+          <a href="https://www.spotify.com/in-en/legal/cookies-policy/" id="">
+            <span>Cookies</span>
+          </a>
+          <a href="https://www.spotify.com/in-en/legal/privacy-policy/#s3" id="">
+            <span>About Ads</span>
+          </a>
+          <a href="https://www.spotify.com/in-en/accessibility/" id="">
+            <span>Accessibility</span>
+          </a>
+        </div>
+      </div>
+    </div>
+      
+    <div class="right bg-grey rounded">
+      <div class="header">
+        <div class="nav">
+          <div class="hamburgerContainer">
+            <img width="40" class="invert hamburger" src="hamburger.svg" alt="">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+              <path d="M15 6L9 12L15 18" stroke="#ffffff" stroke-width="1.5" stroke-miterlimit="16"/>
+            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+              <path d="M9.00005 6L15 12L9 18" stroke="#ffffff" stroke-width="1.5" stroke-miterlimit="16"/>
+            </svg>
+          </div>
+        </div>
+        <div class="button">
+          <button class="signupbtn">Sign Up</button>
+          <button class="loginbtn">Log In</button>
+        </div>
+      </div>
+      <div class="SpotifyPlaylist">
+        <h1>Spotify Playlists</h1>
+        <div class="CardContainer">
+          <div data-folder="Punjabi_Hits" class="Card">
+            <div class="play">
+              <svg width="30" height="30" viewBox="0 0 24 24" fill="none"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <path d="M5 20V4L19 12L5 20Z" stroke="#141B34" stroke-width="1.5" stroke-linejoin="round" fill="#000" />
+              </svg>
+            </div>
+            <img src="https://i.scdn.co/image/ab67706f0000000254473de875fea0fd19d39037" alt="">
+            <h2>Lofi beats</h2>
+            <p>chill beats, lofi vibes, new tracks every weeks...</p>
+          </div>
+          <div data-folder="Haryanvi_Hits" class="Card">
+            <div class="play">
+              <svg width="30" height="30" viewBox="0 0 24 24" fill="none"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <path d="M5 20V4L19 12L5 20Z" stroke="#141B34" stroke-width="1.5" stroke-linejoin="round" fill="#000" />
+              </svg>
+            </div>
+            <img src="https://i.scdn.co/image/ab67706f000000025d8702ead7f24cd310c571c1" alt="">
+            <h2>Today's Top Hits</h2>
+            <p>SZA is on top of hottest 50!</p>
+          </div>
+          <div data-folder="DJ_REMIX_SONGS" class="Card">
+            <div class="play">
+              <svg width="30" height="30" viewBox="0 0 24 24" fill="none"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <path d="M5 20V4L19 12L5 20Z" stroke="#141B34" stroke-width="1.5" stroke-linejoin="round" fill="#000" />
+              </svg>
+            </div>
+            <img src="https://i.scdn.co/image/ab67706f00000002dec17246891b5b4eb97bdb0d" alt="">
+            <h2>Chillout Lounge</h2>
+            <p>Just lean back and enjoy relaxed beats</p>
+          </div>
+        </div>
+        <div class="playbar">
+          <div class="seekbar">
+            <div class="circle"></div>
+          </div>
+          <div class="songName-time">
+            <div class="songinfo">
+
+            </div>
+            <div class="playbutton">
+              <img id="previous" src="previous.svg" alt="">
+              <img id="play" src="play.svg" alt="">
+              <img id="next" src="next.svg" alt="">
+            </div>
+            <div class="songtime">
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
